@@ -19,3 +19,9 @@
 .main-container h1 {
     font-size: 60px;
 }
+
+.link {
+    color: white;
+    text-decoration: none;
+
+}
