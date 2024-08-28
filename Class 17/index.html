@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LocalStorage</title>
+</head>
+
+<body>
+    <form onSubmit="return validateEmail();">
+        <!-- <input type="radio" name="r1" value="cat"> Cat<br>
+        <input type="radio" name="r1" value="bat"> Bat<br>
+        <input type="radio" name="r1" value="hat"> Hat<br> -->
+        <input type="text" placeholder="Enter your email" id="email">
+        <input type="submit" value="Submit Form">
+    </form>
+
+
+
+    <script>
+
+        // localStorage.setItem("name", "Kashan Adnan")
+        // localStorage.setItem("age", 14)
+        // let name = localStorage.getItem("name")
+        // console.log(name);
+        // localStorage.removeItem("name")
+        // localStorage.clear()
+
+        // function validateRadios() {
+        //     let radios = document.getElementsByName("r1")
+        //     for (let i = 0; i < radios.length; i++) {
+        //         const element = radios[i];
+        //         if (element.checked == true) {
+        //             console.log(element.value);
+        //         }
+        //     }
+
+        //     return false
+        // }
+
+        function validateEmail() {
+            let email = document.getElementById("email").value
+
+            if (email.indexOf("@") === -1) {
+                alert("please enter a valid email!")
+            } else {
+                alert("Email is Valid!")
+            }
+
+
+            return false
+        }
+
+
+    </script>
+</body>
+
+</html>

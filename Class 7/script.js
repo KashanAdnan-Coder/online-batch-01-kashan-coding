@@ -1,0 +1,1 @@
+var num = parseFloat("29.9") // Convert String Into Decimal 
