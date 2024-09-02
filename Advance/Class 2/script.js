@@ -19,3 +19,8 @@
 // console.log(main_container);
 
 // document.write("Kashan")
+
+
+let h1 = document.querySelector("h1")
+
+h1.setAttribute("class", "heading")
