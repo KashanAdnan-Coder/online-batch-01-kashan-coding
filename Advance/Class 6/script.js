@@ -11,11 +11,11 @@
 //     }
 // )
 
-async function getData() {
-    let data = await axios.get("https://jsonplaceholder.typicode.com/users")
-    console.log(data);
-}
-getData()
+// async function getData() {
+//     let data = await axios.get("https://jsonplaceholder.typicode.com/users")
+//     console.log(data);
+// }
+// getData()
 
 
 
@@ -24,13 +24,16 @@ getData()
 
 
 
-let http = new XMLHttpRequest()
+// let http = new XMLHttpRequest()
 
-http.onreadystatechange = function () {
-    if (this.readyState == 4 && this.status == 200) {
-        // Typical action to be performed when the document is ready:
-        document.getElementById("demo").innerHTML = http.responseText;
-    }
-};
-http.open("GET", "filename", true);
-http.send();
+// http.onreadystatechange = function () {
+//     if (this.readyState == 4 && this.status == 200) {
+//         // Typical action to be performed when the document is ready:
+//         document.getElementById("demo").innerHTML = http.responseText;
+//     }
+// };
+// http.open("GET", "filename", true);
+// http.send(); 
+
+
+// https://excalidraw.com/#json=WC4oXuC9mLVh54vLgVcQD,v-lS757P4tq41lzYIRUYJQ
